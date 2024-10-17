@@ -12,3 +12,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+a {
+  color: blue;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+    filter: brightness(0.5);
+  }
+}
